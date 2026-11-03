@@ -8,7 +8,7 @@ const SLOTS = [
   { left: "4%", top: "0%", transform: "rotate(-5deg) scale(1)", zIndex: 4, opacity: 1 },
   { left: "72%", top: "4%", transform: "rotate(7deg) scale(0.94)", zIndex: 3, opacity: 1 },
   { left: "70%", top: "56%", transform: "rotate(-6deg) scale(0.94)", zIndex: 3, opacity: 1 },
-  { left: "37%", top: "25%", transform: "rotate(0deg) scale(0.4)", zIndex: 1, opacity: 0 },
+  { left: "40%", top: "64%", transform: "rotate(4deg) scale(0.9)", zIndex: 3, opacity: 1 },
 ];
 
 export default function Hero() {
@@ -59,7 +59,7 @@ export default function Hero() {
               <g fill="none" stroke="var(--ink)" strokeWidth="1.2" strokeLinecap="round">
                 <path d="M330 80 Q 520 0 700 60" markerEnd="url(#ah4)" />
                 <path d="M930 360 Q 950 420 900 460" markerEnd="url(#ah4)" />
-                <path d="M690 600 Q 640 560 640 500" markerEnd="url(#ah4)" />
+                <path d="M700 760 Q 680 790 655 775" markerEnd="url(#ah4)" />
                 <path d="M400 250 Q 340 250 300 280" markerEnd="url(#ah4)" />
               </g>
             </svg>
@@ -72,8 +72,6 @@ export default function Hero() {
                   href={`#project-${p.num}`}
                   className="float-card"
                   style={slot}
-                  tabIndex={slot.opacity ? 0 : -1}
-                  aria-hidden={slot.opacity ? undefined : true}
                 >
                   <div className="card-tile">
                     <ProjectIcon icon={p.icon} />
@@ -148,7 +146,7 @@ export default function Hero() {
           <span className="now-showing" aria-live="polite">
             <span className="dot" />
             <span className="mono">
-              {active.num}/{String(n).padStart(2, "0")}
+              {active.num}
             </span>
             <span className="now-title">{active.title}</span>
             <span>— {active.short}</span>
