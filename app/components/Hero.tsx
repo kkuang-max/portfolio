@@ -11,24 +11,62 @@ const SLOTS = [
   { left: "40%", top: "64%", transform: "rotate(4deg) scale(0.9)", zIndex: 3, opacity: 1 },
 ];
 
+/** How long each case study stays in front before the hand presses again. */
+const AUTO_PRESS_MS = 3200;
+
 export default function Hero() {
   const [idx, setIdx] = useState(0);
   const [pressed, setPressed] = useState(false);
+  const [hovered, setHovered] = useState(false);
+  const [focused, setFocused] = useState(false);
+  const [hidden, setHidden] = useState(false);
+  const [reducedMotion, setReducedMotion] = useState(false);
+  /** Bumped on a manual press so the auto timer restarts from zero. */
+  const [manualPresses, setManualPresses] = useState(0);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => () => {
     if (timer.current) clearTimeout(timer.current);
   }, []);
 
+  // Pause while the tab is in the background or the visitor prefers less motion.
+  useEffect(() => {
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => {
+      setHidden(document.hidden);
+      setReducedMotion(mq.matches);
+    };
+    update();
+    document.addEventListener("visibilitychange", update);
+    mq.addEventListener("change", update);
+    return () => {
+      document.removeEventListener("visibilitychange", update);
+      mq.removeEventListener("change", update);
+    };
+  }, []);
+
   const n = projects.length;
   const active = projects[(n - (idx % n)) % n];
 
-  const press = () => {
+  const advance = () => {
     if (timer.current) clearTimeout(timer.current);
     setIdx((i) => i + 1);
     setPressed(true);
     timer.current = setTimeout(() => setPressed(false), 200);
   };
+
+  const press = () => {
+    advance();
+    setManualPresses((c) => c + 1);
+  };
+
+  const paused = hovered || focused || hidden || reducedMotion;
+
+  useEffect(() => {
+    if (paused) return;
+    const id = setInterval(advance, AUTO_PRESS_MS);
+    return () => clearInterval(id);
+  }, [paused, manualPresses]);
 
   return (
     <section id="top" className="hero wrap">
@@ -49,7 +87,15 @@ export default function Hero() {
         </div>
 
         <div className="hero-visual">
-          <div className="stage">
+          <div
+            className="stage"
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            onFocus={() => setFocused(true)}
+            onBlur={(e) => {
+              if (!e.currentTarget.contains(e.relatedTarget)) setFocused(false);
+            }}
+          >
             <svg viewBox="0 0 1000 820" className="stage-arrows" aria-hidden="true">
               <defs>
                 <marker id="ah4" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
