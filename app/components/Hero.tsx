@@ -12,7 +12,7 @@ const SLOTS = [
 ];
 
 /** How long each case study stays in front before the hand presses again. */
-const AUTO_PRESS_MS = 3200;
+const AUTO_PRESS_MS = 2000;
 
 export default function Hero() {
   const [idx, setIdx] = useState(0);
@@ -52,7 +52,7 @@ export default function Hero() {
     if (timer.current) clearTimeout(timer.current);
     setIdx((i) => i + 1);
     setPressed(true);
-    timer.current = setTimeout(() => setPressed(false), 200);
+    timer.current = setTimeout(() => setPressed(false), 280);
   };
 
   const press = () => {
@@ -91,7 +91,10 @@ export default function Hero() {
             className="stage"
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            onFocus={() => setFocused(true)}
+            onFocus={(e) => {
+              // Only keyboard focus pauses; a mouse click on the puck shouldn't stop autoplay.
+              if (e.target.matches(":focus-visible")) setFocused(true);
+            }}
             onBlur={(e) => {
               if (!e.currentTarget.contains(e.relatedTarget)) setFocused(false);
             }}
@@ -146,25 +149,28 @@ export default function Hero() {
                     <feGaussianBlur stdDeviation="16" />
                   </filter>
                 </defs>
-                <path d="M812 -18L798 -54M905 -26L905 -66M996 -18L1012 -54" fill="none" stroke="var(--glow)" strokeWidth="5" strokeLinecap="round" />
+                <path d="M812 -18L798 -54M905 -26L905 -66M996 -18L1012 -54" fill="none" stroke="var(--glow)" strokeWidth="5" strokeLinecap="round" className={pressed ? "puck-signal is-pressed" : "puck-signal"} />
                 <g transform="rotate(-8 905 160)">
                   <ellipse cx="905" cy="140" rx="262" ry="132" fill="none" stroke="var(--ink)" strokeWidth="2.4" />
                   <path d="M670 140L670 190A235 115 0 0 0 1140 190L1140 140Z" fill="var(--ink)" />
-                  <g className="puck-face" transform={pressed ? "translate(0 16)" : "translate(0 0)"}>
+                  <g className={pressed ? "puck-face is-pressed" : "puck-face"}>
                     <ellipse cx="905" cy="140" rx="235" ry="115" fill="#2A2A28" stroke="var(--ink)" strokeWidth="4" />
                     <ellipse cx="905" cy="140" rx="140" ry="66" fill="none" stroke="var(--glow)" strokeWidth="12" filter="url(#glD)" opacity={pressed ? 1 : 0.4} className="puck-glow" />
                     <ellipse cx="905" cy="140" rx="140" ry="66" fill="none" stroke="var(--glow)" strokeWidth="3.5" />
                     <circle cx="905" cy="140" r="9" fill="var(--glow)" />
+                    {idx > 0 && (
+                      <ellipse key={idx} cx="905" cy="140" rx="140" ry="66" fill="none" stroke="var(--glow)" strokeWidth="6" className="puck-ripple" />
+                    )}
                   </g>
                 </g>
-                <g transform={pressed ? "translate(3 10)" : "translate(0 0)"}>
+                <g className={pressed ? "hand-press is-pressed" : "hand-press"}>
                   <g mask="url(#hmD)" fill="none" stroke="var(--ink)" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M0 780L35 770C90 745 125 720 140 690C170 610 230 440 300 282C330 255 360 240 400 210C440 196 500 188 540 182C600 138 680 66 740 64C790 62 840 54 864 60C876 68 868 80 850 82C810 86 760 96 720 120C690 150 670 200 664 236C640 250 606 290 594 320C580 380 572 430 572 462C640 430 760 350 835 328C856 334 862 356 852 378C842 398 822 410 805 414C780 440 750 470 708 500C650 560 530 700 476 752C430 772 400 780 392 790C370 815 356 860 346 960L0 960Z" fill="var(--paper)" stroke="none" />
+                    <path d="M0 780L35 770C90 745 125 720 140 690C170 610 230 440 300 282C330 255 360 240 400 210C440 196 500 188 540 182C600 130 680 62 740 50C790 42 840 38 866 46C894 54 894 90 868 100C830 108 790 104 760 114C720 130 690 170 664 236C640 250 606 290 594 320C580 380 572 430 572 462C640 430 760 350 835 328C856 334 862 356 852 378C842 398 822 410 805 414C780 440 750 470 708 500C650 560 530 700 476 752C430 772 400 780 392 790C370 815 356 860 346 960L0 960Z" fill="var(--paper)" stroke="none" />
                     <path d="M35 770C90 745 125 720 140 690C170 610 230 440 300 282C320 262 340 250 362 244" />
                     <path d="M360 284C372 248 384 218 405 208C440 196 500 188 536 184" />
-                    <path d="M496 244C540 200 600 140 650 100C680 75 700 66 740 64C780 62 830 56 862 58C876 64 872 78 852 82C820 86 790 80 760 92" />
-                    <path d="M806 72C822 64 846 62 856 66" />
-                    <path d="M790 82C750 96 718 120 700 150C686 175 676 200 668 228" />
+                    <path d="M496 244C540 196 600 130 650 92C686 66 720 50 760 46C800 42 840 40 866 46C894 54 894 90 868 100C836 106 800 104 770 110" />
+                    <path d="M822 60C840 54 862 56 872 64" />
+                    <path d="M770 110C740 118 718 134 702 158C688 180 676 204 668 228" />
                     <path d="M638 248C655 285 668 330 666 372C664 392 640 398 624 388C608 376 600 350 596 318" />
                     <path d="M630 250C610 280 596 300 590 330C580 380 572 430 572 462C585 466 600 464 612 458" />
                     <path d="M612 458C660 430 720 395 770 360C795 342 815 330 835 328C856 334 862 356 852 378C842 398 822 410 805 414" />

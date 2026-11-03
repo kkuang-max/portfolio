@@ -235,6 +235,43 @@ a:hover {
 .puck-glow {
   transition: opacity 200ms;
 }
+/* Press: the hand and puck face sink together, the signal lines flash and a ring ripples out. */
+.puck-face,
+.hand-press {
+  transition: transform 140ms cubic-bezier(0.3, 0, 0.2, 1);
+}
+.puck-face.is-pressed {
+  transform: translate(0, 26px);
+}
+.hand-press.is-pressed {
+  transform: translate(4px, 22px);
+}
+.puck-signal {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  transition: opacity 200ms, transform 200ms var(--ease);
+  opacity: 0.55;
+}
+.puck-signal.is-pressed {
+  opacity: 1;
+  transform: translateY(-14px) scale(1.25);
+}
+.puck-ripple {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: puck-ripple 700ms cubic-bezier(0.2, 0.7, 0.3, 1) forwards;
+  pointer-events: none;
+}
+@keyframes puck-ripple {
+  from {
+    opacity: 0.95;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.65);
+  }
+}
 .puck-button {
   position: absolute;
   left: 55.8%;
@@ -664,7 +701,14 @@ a:hover {
     scroll-behavior: auto;
   }
   .float-card,
-  .work-card {
+  .work-card,
+  .puck-face,
+  .hand-press,
+  .puck-signal {
     transition: none;
+  }
+  .puck-ripple {
+    animation: none;
+    opacity: 0;
   }
 }
