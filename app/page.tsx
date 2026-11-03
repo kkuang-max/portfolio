@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Hero from "./components/Hero";
 import ProjectIcon from "./components/ProjectIcon";
 import { about, process, projects, site } from "./content";
@@ -7,7 +8,7 @@ export default function Home() {
     <div className="page">
       <header className="site-header wrap">
         <a href="#top" className="brand">
-          <span className="dot dot-lg" />
+          <Image src="/logo.png" alt="" width={40} height={40} priority className="brand-logo" />
           {site.name}
         </a>
         <nav aria-label="Primary" className="nav">
