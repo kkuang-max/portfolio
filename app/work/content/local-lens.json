@@ -1,0 +1,1637 @@
+{
+ "hero": {
+  "src": "/work/local-lens/coverphoto2.png",
+  "w": 2500,
+  "h": 1103,
+  "t": "image",
+  "alt": "Local Lens cover"
+ },
+ "blocks": [
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Team"
+            },
+            {
+             "t": "p",
+             "html": "<strong>Katherine Kuang<em> </em></strong>and Anna Munson"
+            },
+            {
+             "t": "h3",
+             "html": "Time"
+            },
+            {
+             "t": "p",
+             "html": "6 months"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "My Contributions"
+            },
+            {
+             "t": "p",
+             "html": "UX Researcher, UX/UI Designer, Developer"
+            },
+            {
+             "t": "h3",
+             "html": "Tools"
+            },
+            {
+             "t": "p",
+             "html": "Figma, Adobe Illustrator, AppSheets, APIs, n8n, Adalo"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Context"
+            },
+            {
+             "t": "p",
+             "html": "This project was a capstone project for the Innovation, Technology, &amp; Design program. We were tasked to identify a problem of our choice, design a solution, and develop the solution into a functional product. Deliverables included conducting user research, synthesizing research, ideating different solutions, designing a prototype, and developing the final product."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Problem"
+            },
+            {
+             "t": "h1",
+             "html": "What travelers wish they knew before…"
+            },
+            {
+             "t": "p",
+             "html": "When traveling to different countries, many people find themselves caught off guard by unwritten rules they weren’t aware of. These challenges can range from minor inconveniences, such as not knowing a store’s operating hours, to more serious situations, like unintentionally breaking a law. For example, some travelers may not realize that certain gestures or behaviors are considered disrespectful in different cultures, while others might unknowingly violate local regulations. Despite researching their destinations in advance, many travelers still miss critical information about these unspoken rules, leaving them unprepared for unexpected situations. This gap in knowledge can lead to confusion, frustration, or even legal trouble."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Solution"
+            },
+            {
+             "t": "h1",
+             "html": "Providing <strong>clear</strong>, <strong>concise</strong>, and <strong>practical insights </strong>to navigate unwritten rules <strong>effortlessly</strong>"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Developing an app that provides travelers with clear, concise, and practical insights to navigate these unwritten rules effortlessly. Prioritizing information centered around the biggest pain points travelers have faced related to these unwritten rules."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Personalized Information</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Easily submit any country to generate tailored information for your destination",
+              "Submit any city within a country to receive location-specific insights for your trip"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "src": "/work/local-lens/personalizationgif.gif",
+           "w": 727,
+           "h": 672,
+           "t": "image",
+           "alt": "Local Lens: Personalized Information"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/local-lens/layoutfeature.png",
+       "w": 924,
+       "h": 841,
+       "t": "image",
+       "alt": "Local Lens: Personalized Information"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Relatable Information in an Easily Digestible Format</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Relatable information sourced from personal stories submitted to platforms like Reddit and blogs",
+              "Information presented in an easily digestible format with clear, concise descriptions of prioritized unwritten rule categories and key navigation points",
+              "Future insights generated through crowdsourced content, adding unique value to the information"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Access Key Insights Before, During, and After Trips</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Save generated information as a trip for easy reference",
+              "Access trip information anytime—before, during, or after your travels"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "src": "/work/local-lens/mytripsgif.gif",
+           "w": 724,
+           "h": 672,
+           "t": "image",
+           "alt": "Local Lens: Access Key Insights Before, During, and After Trips"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Research &amp; Problem Finding"
+            },
+            {
+             "t": "h1",
+             "html": "Gathering knowledge and experiences from over <strong>18 countries</strong> across <strong>6 continents</strong>"
+            },
+            {
+             "t": "p",
+             "html": "To ensure diverse perspectives and minimize bias, we gathered insights from stakeholders with experiences spanning over 18 countries across 6 continents. Our research included input from a wide range of voices, including representatives from cultural organizations, study abroad professors, international students, and global ambassadors."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "src": "/work/local-lens/frame-19.png",
+       "w": 289,
+       "h": 518,
+       "t": "image",
+       "alt": "Local Lens: Gathering knowledge and experiences from over 18 countries across 6 continents"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "Cultural Student Organizations"
+        },
+        {
+         "t": "p",
+         "html": "Understanding how cultural backgrounds influence daily experiences and how they navigate cultural misunderstandings"
+        },
+        {
+         "t": "h2",
+         "html": "Study Abroad Professors"
+        },
+        {
+         "t": "p",
+         "html": "Gaining insight into how well students prepare for cultural differences and resources they use to prepare for trips"
+        },
+        {
+         "t": "h2",
+         "html": "International Students"
+        },
+        {
+         "t": "p",
+         "html": "Learning how visitors interact with local norms, what misunderstandings arise, and how they handle cultural differences"
+        },
+        {
+         "t": "h2",
+         "html": "Global Ambassadors"
+        },
+        {
+         "t": "p",
+         "html": "Exploring what resources helped study abroad students adjust to cultural differences and identifying surprising cultural moments they encountered"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "What we found was that travelers struggle to find reliable information on local customs."
+        },
+        {
+         "t": "h2",
+         "html": "<strong>100%</strong> of stakeholders shared pain points related to day-to-day nuances"
+        },
+        {
+         "t": "h2",
+         "html": "<strong>0%</strong> Felt prepared in an effective way using existing resources"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Competitive Analysis"
+            },
+            {
+             "t": "h1",
+             "html": "Current resources are <strong>text-heavy</strong>, <strong>lack focus</strong>, and <strong>miss unwritten rules</strong>"
+            },
+            {
+             "t": "p",
+             "html": "Everyone we spoke to relied on multiple resources to prepare for their travels, often spending significant time jumping between websites and books to gather the necessary information. When we examined these resources, we found them to be overwhelmingly text-heavy, scattered in focus, and rarely addressing unwritten rules—except for one obscure Swiss hotel site that none of our stakeholders had never come across. Additionally, many of these resources were not mobile-friendly, making on-the-go access difficult."
+            }
+           ]
+          },
+          {
+           "src": "/work/local-lens/competitive-analysis.png",
+           "w": 1828,
+           "h": 643,
+           "t": "image",
+           "alt": "Local Lens: Current resources are text-heavy, lack focus, and miss unwritten rules"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "key findings"
+        },
+        {
+         "t": "h1",
+         "html": "After gathering insights from <strong>25</strong> experienced travelers and locals, we identified a <strong>few key findings</strong>"
+        }
+       ]
+      },
+      {
+       "src": "/work/local-lens/key-findings.png",
+       "w": 1727,
+       "h": 772,
+       "t": "image",
+       "alt": "Local Lens: After gathering insights from 25 experienced travelers and locals, we identified a few key findings",
+       "dark": true
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Narrowing the scope"
+            },
+            {
+             "t": "h1",
+             "html": "Within our key findings, we identified common themes to narrow the scope"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "Throughout our interviews, we uncovered many different pain points, but we chose to focus on the ones that were consistently mentioned across all conversations. Our approach was inspired by the <strong>Cultural Iceberg Theory</strong>, which divides culture into surface and deep levels."
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 6,
+             "kids": [
+              {
+               "src": "/work/local-lens/iceberg.png",
+               "w": 2001,
+               "h": 1129,
+               "t": "image",
+               "alt": "Local Lens: Within our key findings, we identified common themes to narrow the scope"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 4,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "p",
+                 "html": "We focused on surface-level cultural aspects travelers encounter daily—<strong>speed of lifestyle, dress codes, operating hours, and key phrases</strong>—as these unwritten rules shape everyday experiences."
+                }
+               ]
+              },
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "p",
+                 "html": "Deeper aspects like <strong>religion, history, and accommodations</strong> were less embedded in daily interactions and mentioned less frequently, so we chose not to prioritize them."
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "User Case"
+            },
+            {
+             "t": "h1",
+             "html": "Not a made up story, but a cumulation of stories we gathered from our research…"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "src": "/work/local-lens/personav2.png",
+   "w": 2500,
+   "h": 928,
+   "t": "image",
+   "alt": "Local Lens: Not a made up story, but a cumulation of stories we gathered from our research…"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 2,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Ideation"
+            },
+            {
+             "t": "h1",
+             "html": "Weighing the pros and cons of each idea"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "The team began ideating by spending 7 minutes writing down as many solutions as possible, then coming back together to lay the ideas out on an affinity map"
+            }
+           ]
+          },
+          {
+           "src": "/work/local-lens/ideation.png",
+           "w": 1896,
+           "h": 924,
+           "t": "image",
+           "alt": "Local Lens: Weighing the pros and cons of each idea"
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "We selected our top three ideas:"
+            }
+           ]
+          },
+          {
+           "src": "/work/local-lens/prosandcons.png",
+           "w": 1349,
+           "h": 151,
+           "t": "image",
+           "alt": "Local Lens: Weighing the pros and cons of each idea",
+           "dark": true
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Proof of Concept"
+        },
+        {
+         "t": "h1",
+         "html": "Demonstrating the feasibility of the concept &amp; gathering feedback"
+        },
+        {
+         "t": "p",
+         "html": "To test the feasibility of generating and presenting this information in a concise and clear format, we created various iterations of prompts for Anthropic’s AI (Claude). These prompts were designed to generate insights about unwritten rules based on personal stories shared by travelers on platforms like Reddit and blogs. This helped us assess the ability to provide useful and accurate content in a user-friendly manner. Users provided feedback on the information provided and its layout to lead us to our next steps."
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 8,
+         "kids": [
+          {
+           "src": "/work/local-lens/mvp1.png",
+           "w": 1693,
+           "h": 1066,
+           "t": "image",
+           "alt": "Local Lens: Demonstrating the feasibility of the concept & gathering feedback",
+           "dark": true
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Iteration"
+        },
+        {
+         "t": "h1",
+         "html": "<strong>3 major improvements</strong> were made with user feedback"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/local-lens/major-improvement-1.png",
+       "w": 992,
+       "h": 899,
+       "t": "image",
+       "alt": "Local Lens: 3 major improvements were made with user feedback"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Country Selection Flexibility</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Previously, users had to select from a list of countries",
+              "Travelers now have the freedom to discover information about any country"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Enhancing Information Readability</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Information was previously provided broadly",
+              "More in depth information can be accessed through different navigation options"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "src": "/work/local-lens/major-improvement-2.png",
+           "w": 985,
+           "h": 883,
+           "t": "image",
+           "alt": "Local Lens: Enhancing Information Readability"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "src": "/work/local-lens/improvement3.gif",
+           "w": 843,
+           "h": 768,
+           "t": "image",
+           "alt": "Local Lens: Enhancing Information Readability"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Addition of Screens to Enhance Experience</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Informative welcome screen that illustrates app’s key functions",
+              "Allow users to save trips to access later on during trips"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Style Guide"
+        },
+        {
+         "t": "h1",
+         "html": "Ensuring visual consistency with a style guide"
+        }
+       ]
+      },
+      {
+       "src": "/work/local-lens/style-guide.png",
+       "w": 2500,
+       "h": 1335,
+       "t": "image",
+       "alt": "Local Lens: Ensuring visual consistency with a style guide"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Final Screens"
+            },
+            {
+             "t": "h1",
+             "html": "Incorporating the style guide into the selected wireframes"
+            }
+           ]
+          },
+          {
+           "src": "/work/local-lens/final-screens-tg.png",
+           "w": 1847,
+           "h": 880,
+           "t": "image",
+           "alt": "Local Lens: Incorporating the style guide into the selected wireframes"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Developing the App"
+        },
+        {
+         "t": "p",
+         "html": "To develop the app we, used APIs to connect the backend (done in n8n) to the frontend (done in Adalo). The system was automated with Anthropic’s AI agent, which was connected to our n8n backend of the app."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "src": "/work/local-lens/backend.png",
+   "w": 2500,
+   "h": 647,
+   "t": "image",
+   "alt": "Local Lens: Incorporating the style guide into the selected wireframes"
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Functioning App Demo"
+        }
+       ]
+      },
+      {
+       "t": "video",
+       "src": "/work/local-lens/app-demo.mp4",
+       "poster": "/work/local-lens/app-demo-poster.jpg",
+       "w": 720,
+       "h": 1280
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Reflection"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h1",
+             "html": "<strong>What I Learned</strong>"
+            },
+            {
+             "t": "ol",
+             "items": [
+              "<strong>Evolving My Design Process When Integrating Technical Development</strong>: Balancing design, research, and development firsthand gave me a deeper understanding of how technical constraints shape user experiences. I had to make constant trade-offs—adjusting designs to ensure feasibility while maintaining usability—forcing me to think critically about how research insights translated into both interface and functionality.",
+              "<strong>Conducting Diverse Stakeholder Interviews to Minimize Bias</strong>: Engaging with a range of stakeholders, from end-users to industry experts, helped me uncover hidden pain points and avoid one-dimensional perspectives. This approach strengthened my ability to synthesize diverse insights into a more inclusive and well-rounded solution.",
+              "<strong>Exploring the Interconnected Impact of Research, Design, and Development</strong>: Managing all three aspects myself reinforced how each phase influences the next. Research shaped design decisions, while technical feasibility forced design iterations, creating a continuous feedback loop. This holistic approach helped me craft a more seamless and impactful user experience."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { projects, site } from "../content";
 import ProjectIcon from "./ProjectIcon";
@@ -73,15 +74,7 @@ export default function Hero() {
       <div className="hero-row">
         <div className="hero-copy">
           <h1 className="hero-title">
-            I make problems{" "}
-            <span className="selection">
-              <em>my</em>
-              <span className="handle tl" />
-              <span className="handle tr" />
-              <span className="handle bl" />
-              <span className="handle br" />
-            </span>{" "}
-            problem.
+            I make <Selected>your</Selected> problems <Selected>my</Selected> problem.
           </h1>
           <p className="hero-intro">{site.intro}</p>
         </div>
@@ -116,9 +109,9 @@ export default function Hero() {
             {projects.map((p, i) => {
               const slot = SLOTS[(i + idx) % SLOTS.length];
               return (
-                <a
+                <Link
                   key={p.num}
-                  href={`#project-${p.num}`}
+                  href={p.href}
                   className="float-card"
                   style={slot}
                 >
@@ -131,7 +124,7 @@ export default function Hero() {
                     </span>
                     <span className="card-title">{p.title}</span>
                   </div>
-                </a>
+                </Link>
               );
             })}
 
@@ -206,5 +199,18 @@ export default function Hero() {
         </div>
       </div>
     </section>
+  );
+}
+
+/** A word wrapped in a design-tool style selection box with corner handles. */
+function Selected({ children }: { children: React.ReactNode }) {
+  return (
+    <span className="selection">
+      <em>{children}</em>
+      <span className="handle tl" />
+      <span className="handle tr" />
+      <span className="handle bl" />
+      <span className="handle br" />
+    </span>
   );
 }

@@ -1,5 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
 import Hero from "./components/Hero";
-import ProjectIcon from "./components/ProjectIcon";
 import SectionHead from "./components/SectionHead";
 import { projects } from "./content";
 
@@ -9,27 +10,20 @@ export default function Home() {
       <Hero />
 
       <section id="work" className="section wrap">
-        <SectionHead title="Selected work" />
+        <SectionHead title="My work" />
         <div className="work-grid">
-          {projects.map((p) => (
-            <a key={p.num} id={`project-${p.num}`} className="work-card" href={p.href} target="_blank" rel="noreferrer">
-              <div className="card-tile work-tile">
-                {/* eslint-disable-next-line @next/next/no-img-element -- hotlinked from the current site */}
-                <img src={p.image} alt={`${p.title} cover`} loading="lazy" />
-                <span className="work-icon">
-                  <ProjectIcon icon={p.icon} />
-                </span>
+          {projects.map((p, i) => (
+            <Link key={p.num} id={`project-${p.num}`} className="work-card" href={p.href}>
+              <div className="work-tile">
+                <Image src={p.image} alt={`${p.title} cover`} fill sizes="(max-width: 768px) 100vw, 640px" priority={i < 2} />
               </div>
               <div className="work-body">
-                <span className="mono">
-                  {p.num} — {p.surface}
-                </span>
+                <span className="mono work-meta">{p.category}</span>
                 <h3>{p.title}</h3>
                 <p>{p.summary}</p>
-                <span className="mono work-meta">{p.meta}</span>
-                <span className="work-link">Read case study ↗</span>
+                <span className="work-link">View case study →</span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </section>

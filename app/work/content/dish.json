@@ -1,0 +1,1905 @@
+{
+ "hero": {
+  "src": "/work/dish/frame-2.png",
+  "w": 2500,
+  "h": 1534,
+  "t": "image",
+  "alt": "D.I.S.H cover"
+ },
+ "blocks": [
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Team"
+            },
+            {
+             "t": "p",
+             "html": "<strong>Katherine Kuang<em>, </em></strong>Katie Pecoraro, Anna Sheridan, Andrew Lentchner, Nicolas Gallardo, Peter Kellogg"
+            },
+            {
+             "t": "h3",
+             "html": "Time"
+            },
+            {
+             "t": "p",
+             "html": "3 months"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "My Contributions"
+            },
+            {
+             "t": "p",
+             "html": "User Research, User Interviews, Wireframing, Prototyping, Usability Testing, Product Pitching"
+            },
+            {
+             "t": "h3",
+             "html": "Tools"
+            },
+            {
+             "t": "p",
+             "html": "Figma, Adobe Illustrator, Miro"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Context"
+            },
+            {
+             "t": "p",
+             "html": "This project was a part of a Design Challenge for the Innovation, Technology, &amp; Design program. We were tasked to identify a problem affecting a specific population at the University of Miami, design a solution, and create a business opportunity out of it. Deliverables included conducting user research, designing a prototype, creating a business plan, and pitching the product. This case study will focus on the UX Design and Research portion."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Problem"
+            },
+            {
+             "t": "h1",
+             "html": "Change is wanted, but needs are <strong>NOT</strong> being voiced effectively"
+            },
+            {
+             "t": "p",
+             "html": "Currently, University of Miami requires all students who live on campus to have a meal plan. Students have a fixed number of meal swipes per week to use at 2 dining halls and are unhappy with the meal plans because they feel that the food isn’t enjoyable. However, <strong>they are not expressing their frustrations to the dining services in an effective way</strong>. The lack of specific feedback from students hampers the dining team’s ability to identify the core issues within the dining halls that contribute to student dissatisfaction. As a result, <strong>dining services struggle to understand the necessary changes required to enhance the overall dining experience</strong> for students."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Solution"
+            },
+            {
+             "t": "h1",
+             "html": "Redesigning the feedback system with <strong>KIOSKS</strong>"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Attention-grabbing Kiosks will be strategically placed in the dining halls for students to provide feedback conveniently. Leveraging built-in AI capabilities, the feedback received will be automatically organized into relevant themes, allowing staff to quickly address these issues without the need for extensive manual processing."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Rate Specific Aspects of the Dining Hall</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Easily and quickly provide feedback catered to your specific needs",
+              "Avoid broad reviews that yield limited impact"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/studentreview.gif",
+           "w": 631,
+           "h": 826,
+           "t": "image",
+           "alt": "D.I.S.H: Rate Specific Aspects of the Dining Hall"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/student-review.png",
+           "w": 658,
+           "h": 848,
+           "t": "image",
+           "alt": "D.I.S.H: Rate Specific Aspects of the Dining Hall"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/dish/reviewed.png",
+       "w": 1742,
+       "h": 1494,
+       "t": "image",
+       "alt": "D.I.S.H: Rate Specific Aspects of the Dining Hall"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Get Notified When Your Feedback is Reviewed</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Staff must mark feedback as reviewed, ensuring thorough evaluation of your input",
+              "Your need for change will be duly acknowledged and considered",
+              "Receive a confirmation email to your linked address, assuring you that your feedback has been carefully assessed"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Organize Data More Easily</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Built-in AI organizes the data, eliminating need for time-consuming manual organization",
+              "Common themes + top pain points are identified efficiently",
+              "Pre-established feedback categories simplifies process of locating specific data"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "src": "/work/dish/analyzingdata.gif",
+       "w": 630,
+       "h": 826,
+       "t": "image",
+       "alt": "D.I.S.H: Organize Data More Easily"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 4,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/staff-categories.png",
+           "w": 643,
+           "h": 842,
+           "t": "image",
+           "alt": "D.I.S.H: Organize Data More Easily"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Research &amp; Problem Finding"
+            },
+            {
+             "t": "h1",
+             "html": "Students <strong>WANT </strong>to have a voice"
+            },
+            {
+             "t": "p",
+             "html": "We went to the dining halls and collected photos of food options offered that were deemed unacceptable by students…"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 4,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/screenshot-2023-05-25-193705.jpg",
+           "w": 468,
+           "h": 312,
+           "t": "image",
+           "alt": "D.I.S.H: Students WANT to have a voice"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "“The chicken was raw… but this is not the first time”"
+        },
+        {
+         "t": "h2",
+         "html": "- <em>a student</em>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Afterwards, we conducted a survey on these students to further identify the core problem. From our survey, we discovered they want to have a voice. Of 72 students, <strong>61% want to give feedback to the dining hall</strong> so that they can get change. But from that same survey <strong>only 37% actually do so</strong>. What is more important to know is that <strong>when students are giving feedback how are they doing it</strong>?"
+        },
+        {
+         "t": "h2",
+         "html": "<strong>100%</strong> of students who give feedback want to do so <strong>DIRECTLY</strong> in dining halls."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Competitive Analysis"
+            },
+            {
+             "t": "h1",
+             "html": "Current feedback channels are too <strong>SCATTERED </strong>and <strong>BROAD</strong>"
+            },
+            {
+             "t": "p",
+             "html": "There are multiple ways that students can provide feedback to the dining halls: surveys, the DineOnCampus app, the \"Text and Tell\" direct texting option, and the HappyOrNot rating system. Despite the availability of various feedback channels for the dining halls at the university, the process of gathering feedback through multiple channels poses challenges when it comes to timely review and analysis during critical moments."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/dish/1200x600wa.jpg",
+       "w": 1066,
+       "h": 599,
+       "t": "image",
+       "alt": "D.I.S.H: Current feedback channels are too SCATTERED and BROAD"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/dish/channels4_profile.jpg",
+       "w": 900,
+       "h": 506,
+       "t": "image",
+       "alt": "D.I.S.H: Current feedback channels are too SCATTERED and BROAD"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "<strong>Of 72 students,</strong> <strong>67%</strong> only use the HappyOrNot rating system. Yet, <strong>this system is extremely limited</strong>: solely providing 4 faces to rate their broad, overall experience. Consequently, the auxiliary and dining services have refrained from reviewing the data generated by this system."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "User Interviews"
+        },
+        {
+         "t": "h1",
+         "html": "Gathering insights on how feedback is given, received, &amp; reviewed"
+        },
+        {
+         "t": "p",
+         "html": "We conducted interviews with…"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 4,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/1f937-2642.png",
+           "w": 512,
+           "h": 512,
+           "t": "image",
+           "alt": "D.I.S.H: Gathering insights on how feedback is given, received, & reviewed"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>20 Students</strong>"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 8,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 7,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "ul",
+             "items": [
+              "Have you ever provided feedback to the dining halls, and if so how?",
+              "How often do you provide feedback in the dining halls?",
+              "Did you feel your feedback was taken into consideration or addressed?"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 8,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 2,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "ul",
+             "items": [
+              "What feedback mechanisms do you use the most to make changes to the dining halls?",
+              "How is the feedback processed, implemented, and reviewed?",
+              "What do you look for when processing feedback?"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "src": "/work/dish/1f469-1f4bc.png",
+       "w": 512,
+       "h": 512,
+       "t": "image",
+       "alt": "D.I.S.H: 20 Students"
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "<strong>Auxiliary Services</strong>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Key Findings"
+            },
+            {
+             "t": "h1",
+             "html": "After <strong>21</strong> interviews &amp; <strong>72</strong> survey responses, we identified <strong>3</strong> <strong>key findings</strong>"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 2,
+     "kids": [
+      {
+       "src": "/work/dish/1.jpg",
+       "w": 582,
+       "h": 582,
+       "t": "image",
+       "alt": "D.I.S.H: After 21 interviews & 72 survey responses, we identified 3 key findings"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 9,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 8,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "Lack of Awareness"
+            },
+            {
+             "t": "p",
+             "html": "Students lack awareness of the available feedback channels for the dining halls, resulting in a lack of valuable feedback. They gradually lose motivation to provide any further reviews because they perceive their efforts to have little to no impact."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 2,
+         "kids": [
+          {
+           "src": "/work/dish/2.jpg",
+           "w": 614,
+           "h": 614,
+           "t": "image",
+           "alt": "D.I.S.H: Lack of Awareness"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 9,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 8,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "Extensive Time Reviewing Feedback"
+            },
+            {
+             "t": "p",
+             "html": "The absence of a dedicated analytics personnel creates the challenge of reviewing scattered feedback across multiple platforms in a timely manner. <strong>Feedback often goes stale by the time the dining services looks over it</strong>."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 2,
+         "kids": [
+          {
+           "src": "/work/dish/3.jpg",
+           "w": 610,
+           "h": 610,
+           "t": "image",
+           "alt": "D.I.S.H: Extensive Time Reviewing Feedback"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 9,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 8,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "Specific Feedback is Important"
+            },
+            {
+             "t": "p",
+             "html": "Feedback on <strong>specific aspects is crucial</strong> for dining services to understand where improvements are needed. The auxiliary services are interested in students' opinions on <strong>quality, sanitation, taste, services, and overall experience</strong>."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Personas"
+            },
+            {
+             "t": "h1",
+             "html": "Students living on campus &amp; auxiliary department members as target users…"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 2,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 8,
+     "kids": [
+      {
+       "src": "/work/dish/persona-revised-dish.jpg",
+       "w": 1152,
+       "h": 648,
+       "t": "image",
+       "alt": "D.I.S.H: Students living on campus & auxiliary department members as target users…"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 2,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 2,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 8,
+         "kids": [
+          {
+           "src": "/work/dish/persona-revised-dish-2.png",
+           "w": 1152,
+           "h": 648,
+           "t": "image",
+           "alt": "D.I.S.H: Students living on campus & auxiliary department members as target users…"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 2,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 9,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Early Design Concepts &amp; Solutions"
+            },
+            {
+             "t": "h1",
+             "html": "We began ideating using the “<strong>SCAMPER</strong>” method"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 2,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "src": "/work/dish/ideating.jpg",
+           "w": 2500,
+           "h": 1406,
+           "t": "image",
+           "alt": "D.I.S.H: We began ideating using the “SCAMPER” method"
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "Before arriving at our final solution, we came up with a few preliminary ideas:"
+            },
+            {
+             "t": "ol",
+             "items": [
+              "Incentives",
+              "Feedback App",
+              "QR codes leading to feedback site"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "After weighing out the “cons,” we decided to implement a solution that would be readily accessible and convenient: <strong>Kiosks. </strong>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Iteration"
+        },
+        {
+         "t": "h1",
+         "html": "<strong>3 MAJOR IMPROVEMENTS</strong> were made with user feedback"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "src": "/work/dish/optionstostations.png",
+       "w": 1072,
+       "h": 608,
+       "t": "image",
+       "alt": "D.I.S.H: 3 MAJOR IMPROVEMENTS were made with user feedback"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Changing “Options” selection to “Stations”</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Based on feedback, students want to be able to leave even more specific feedback  for individual stations",
+              "When reviewing feedback, staff can look back at menus for stations with poor ratings"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Making  the “Open Feedback” option more readily available</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Previously, users had to slide up to access the “Additional Comments” and “Link Email” features",
+              "Students stated they’d be more encouraged to leave open-ended feedback if the option were more readily available without additional actions"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "src": "/work/dish/openended.png",
+           "w": 1081,
+           "h": 592,
+           "t": "image",
+           "alt": "D.I.S.H: Making the “Open Feedback” option more readily available"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "src": "/work/dish/staff.png",
+           "w": 766,
+           "h": 852,
+           "t": "image",
+           "alt": "D.I.S.H: Making the “Open Feedback” option more readily available"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Enhancing staff flow and data organization</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Separation of feedback data into two tabs: Categories and General",
+              "Addition of the \"Top Pain Points\" section while removing the \"Reviewed Feedback\" section prioritizes the most critical information for making necessary changes"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "html",
+   "items": [
+    {
+     "t": "h3",
+     "html": "Final Screens"
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/stations.png",
+           "w": 653,
+           "h": 845,
+           "t": "image",
+           "alt": "D.I.S.H: Enhancing staff flow and data organization"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/dish/student-review.png",
+           "w": 658,
+           "h": 848,
+           "t": "image",
+           "alt": "D.I.S.H: Enhancing staff flow and data organization"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "src": "/work/dish/staff-general-2.png",
+       "w": 645,
+       "h": 841,
+       "t": "image",
+       "alt": "D.I.S.H: Enhancing staff flow and data organization"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 3,
+     "kids": [
+      {
+       "src": "/work/dish/stations-staff.png",
+       "w": 663,
+       "h": 846,
+       "t": "image",
+       "alt": "D.I.S.H: Enhancing staff flow and data organization"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "embed",
+       "src": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsT6uhwa49sqV9hbd4bQTnb%2Fdish-wireframe%3Fpage-id%3D246%253A3776%26type%3Ddesign%26node-id%3D246-3777%26viewport%3D477%252C427%252C0.03%26scaling%3Dscale-down%26starting-point-node-id%3D246%253A3777"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Reflection"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h1",
+             "html": "<strong>What I Learned</strong>"
+            },
+            {
+             "t": "ol",
+             "items": [
+              "<strong>Importance of Researching and Defining the Problem</strong>: Initially, my team and I faced challenges in pinpointing the core problem that we needed to focus on. We started with a broad issue, struggling to narrow it down to a more actionable problem statement. Our focus seemed to be on envisioning the end solution without a well-defined problem at hand. It became clear that without a specific problem to tackle, we couldn't expect to find a viable solution. With extensive research and interviews, we gained valuable insights that clarified the direction we should take. These efforts aligned our focus and set a solid foundation for the next steps.",
+              "<strong>Importance of User Feedback:</strong> Through user interviews and iterative testing of different design versions, we were able to gain valuable insights and align the direction of the feedback system with the specific needs and expectations of our users.",
+              "<strong>Importance of Iteration:</strong> UX design is a continuous journey, not a one-time affair. Our research phase involved plenty of trial and error to identify and define the core problem we aimed to solve. Similarly, creating a design that perfectly aligns with the user's needs required multiple iterations and attempts. Just as it takes time and effort to fine-tune a design, our research process involved backing up our decisions with solid evidence and insights.",
+              "<strong>Importance of Working AS a Team:</strong> Collaborating in a team of diverse skill sets, personalities, and opinions proved to be instrumental in creating an exceptional product. However, it wasn't always smooth sailing. Given that each team member had their own unique perspective, we often encountered challenges in reaching agreements on the next steps. Yet, through our experiences, we came to recognize the significance of embracing everyone's ideas. This realization ultimately paved the way for a more inclusive and successful collaborative process."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

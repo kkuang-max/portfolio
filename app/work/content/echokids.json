@@ -1,0 +1,1616 @@
+{
+ "hero": {
+  "src": "/work/echokids/cover2.png",
+  "w": 2500,
+  "h": 1251,
+  "t": "image",
+  "alt": "EchoKids Redesign cover"
+ },
+ "blocks": [
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Team"
+            },
+            {
+             "t": "p",
+             "html": "Project Manager, Front-End Developers, and UX Designers"
+            },
+            {
+             "t": "h3",
+             "html": "Time"
+            },
+            {
+             "t": "p",
+             "html": "3 months"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "My Contributions"
+            },
+            {
+             "t": "p",
+             "html": "Lead redesign of the user journey (Research, Journey Mapping, UX Writing, HiFi Wireframing, Prototyping)"
+            },
+            {
+             "t": "h3",
+             "html": "Tools"
+            },
+            {
+             "t": "p",
+             "html": "Figma, Notion, Webflow"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Context"
+            },
+            {
+             "t": "p",
+             "html": "During the Summer 2023, I interned at EchoKids for Web UX/UI Design. EchoKids is a startup music education company that provides a variety of different lessons through online coursework as well as in-person and video music lessons with mentors. The CEO wanted to update the customer journey so parents of students first read and learn about EchoKids, then try out a free trial, then sign up for a membership."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Problem"
+            },
+            {
+             "t": "h1",
+             "html": "Users struggled to understand EchoKids’ values and their offerings"
+            },
+            {
+             "t": "p",
+             "html": "User feedback indicated that clients found it difficult to understand EchoKids’ values based on the way information was offered and lack of specific information as well as difficulty finding certain information about the company. Parts of the website also proved to be overly text-heavy, discouraging users from further learning about the company."
+            }
+           ]
+          },
+          {
+           "src": "/work/echokids/problem-photo.png",
+           "w": 2500,
+           "h": 4677,
+           "t": "image",
+           "alt": "EchoKids Redesign: Users struggled to understand EchoKids’ values and their offerings"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Solution"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "src": "/work/echokids/revised-about-entry-point.gif",
+               "w": 1353,
+               "h": 821,
+               "t": "image",
+               "alt": "EchoKids Redesign: Users struggled to understand EchoKids’ values and their offerings"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "h2",
+                 "html": "<strong>New “About Us” page entry point</strong>"
+                },
+                {
+                 "t": "ul",
+                 "items": [
+                  "The original entry point consisted of excess steps and was hard to find for users",
+                  "The updated version allows users to easily find more information about the company"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "h2",
+                 "html": "<strong>Adding rich media</strong>"
+                },
+                {
+                 "t": "ul",
+                 "items": [
+                  "The original story section was too text heavy and hard to get through",
+                  "The updated story section keeps users interested through interactive storytelling while including the additional option to read"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "src": "/work/echokids/revised-story.gif",
+               "w": 1353,
+               "h": 821,
+               "t": "image",
+               "alt": "EchoKids Redesign: Adding rich media"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "src": "/work/echokids/revised-values.gif",
+               "w": 1353,
+               "h": 821,
+               "t": "image",
+               "alt": "EchoKids Redesign: Adding rich media"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "h2",
+                 "html": "<strong>Dedicated section explaining the company’s core values</strong>"
+                },
+                {
+                 "t": "ul",
+                 "items": [
+                  "The original site mentioned the “Montessori, Kodaly, and Suzuki Methods” as the core of the company’s values however never explained what they were",
+                  "The updated site contains a section dedicated to explaining the importance of the three methods"
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "h2",
+                 "html": "<strong>Updated homepage for visual consistency</strong>"
+                },
+                {
+                 "t": "ul",
+                 "items": [
+                  "The original homepage played around with a beige background for a couple sections",
+                  "The updated homepage alternates between the beige and white backgrounds to differentiate between different sections"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "src": "/work/echokids/revised-home-layout.gif",
+               "w": 1353,
+               "h": 821,
+               "t": "image",
+               "alt": "EchoKids Redesign: Updated homepage for visual consistency"
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Problem Discovery"
+            },
+            {
+             "t": "h1",
+             "html": "The current journey leads to uninformed decisions by customers"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 3,
+             "kids": [
+              {
+               "src": "/work/echokids/9fe2fdb1a13c04198ad4b20ab245554f.png",
+               "w": 550,
+               "h": 550,
+               "t": "image",
+               "alt": "EchoKids Redesign: The current journey leads to uninformed decisions by customers"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 7,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "blockquote",
+                 "html": "“Parents sign their kids up for music lessons without knowing what they are really signing up for” - EchoKids CEO"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "The old flow involved several steps to find information about the company, with an emphasis on exploring memberships before learning about the company itself. There was also a notable absence of a dedicated section that explained the company's core values. What if we improved the accessibility of important information about the company?"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "src": "/work/echokids/goal-journey.png",
+       "w": 1819,
+       "h": 325,
+       "t": "image",
+       "alt": "EchoKids Redesign: The current journey leads to uninformed decisions by customers",
+       "dark": true
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Within the current flow, I mapped out the parents' core pain points when going through the journey of EchoKids’ main website…"
+        }
+       ]
+      },
+      {
+       "src": "/work/echokids/echokids-customer-journey-parent.png",
+       "w": 2500,
+       "h": 726,
+       "t": "image",
+       "alt": "EchoKids Redesign: The current journey leads to uninformed decisions by customers"
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "<strong>Biggest Pain Points:</strong>"
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Clarification on core business values (Montessori, Suzuki, and Kodaly methods)",
+          "Users felt more prompted to click on the “Explore Memberships” instead of finding information about EchoKids",
+          "Lack of testimonies",
+          "Differentiating between the demo/free trial lesson"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Competitive Analysis"
+            },
+            {
+             "t": "h1",
+             "html": "Mapping out the journeys of indirect competitors"
+            },
+            {
+             "t": "p",
+             "html": "To assess the strengths and weaknesses of the EchoKids website, I conducted research on indirect competitors, focusing on B-Corporations that offer educational platforms. This strategic approach aligns with the CEO's vision of reflecting B-Corporation values in her own company. My analysis included in-depth examinations of Moodle and Coursera, where I closely evaluated how their navigation systems influence the overall user experience."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/echokids/moodle-logo.svg.png",
+       "w": 2500,
+       "h": 1667,
+       "t": "image",
+       "alt": "EchoKids Redesign: Mapping out the journeys of indirect competitors"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "src": "/work/echokids/coursera-logo.png",
+       "w": 2500,
+       "h": 1406,
+       "t": "image",
+       "alt": "EchoKids Redesign: Mapping out the journeys of indirect competitors"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "I started off mapping the user journey of the customer through these two sites, then created a doc to list out what they did great in comparison to the EchoKids site."
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "src": "/work/echokids/moodle-journey.png",
+           "w": 1217,
+           "h": 809,
+           "t": "image",
+           "alt": "EchoKids Redesign: Mapping out the journeys of indirect competitors"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "src": "/work/echokids/coursera-journey.png",
+           "w": 1224,
+           "h": 818,
+           "t": "image",
+           "alt": "EchoKids Redesign: Mapping out the journeys of indirect competitors"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Important <strong>commonalities</strong> that I found among the two were:"
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "ul",
+             "items": [
+              "Clear value proposition",
+              "Simple &amp; easy navigation"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "ul",
+             "items": [
+              "Easy access to free trials"
+             ]
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Community interaction and support"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Design: Ideation"
+            },
+            {
+             "t": "h1",
+             "html": "Testing design concepts"
+            },
+            {
+             "t": "p",
+             "html": "<strong>Constraints: </strong>EchoKids’ website is built using Webflow which led to some backend development constraints. I originally pitched an idea to add a community support feature, however it wasn’t possible due to the constraint"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 6,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "p",
+                 "html": "<strong>Ideation Process:</strong>"
+                },
+                {
+                 "t": "ol",
+                 "items": [
+                  "Pasted screenshots of the features that did great in the Moodle and Coursera user journeys",
+                  "Pasted screenshots of the pain points in the EchoKids’ user journey",
+                  "Circled areas of improvement",
+                  "Wrote ideas &amp; notes down on areas of improvement",
+                  "Pitched ideas to CEO and designers &amp; received feedback"
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 4,
+             "kids": [
+              {
+               "src": "/work/echokids/ideation.png",
+               "w": 720,
+               "h": 770,
+               "t": "image",
+               "alt": "EchoKids Redesign: Testing design concepts"
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "<strong>Breakdown of Goals:</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Redesigning the “About Us” page to be more readable and explain EchoKids’ values, mission, and curriculum more clearly",
+              "Creating a section explaining the core values of EchoKids’ business",
+              "Refining the flow of the website to meet the CEO’s goal flow where users understand clearly what her company does and offers",
+              "Make option to sign up for a free trial easier to find and more clear"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Design: Designing within a design system"
+            },
+            {
+             "t": "h1",
+             "html": "Recycle &amp; adapt existing resources"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "With the help of EchoKids’ existing design system, I was able to build wireframes easily"
+            }
+           ]
+          },
+          {
+           "src": "/work/echokids/branding.png",
+           "w": 2500,
+           "h": 842,
+           "t": "image",
+           "alt": "EchoKids Redesign: Recycle & adapt existing resources"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Design: Desktop"
+        },
+        {
+         "t": "h1",
+         "html": "How might we design an <strong>engaging</strong> and <strong>intuitive</strong> journey that <strong>effectively communicates</strong> information about EchoKids to users?"
+        },
+        {
+         "t": "p",
+         "html": "Between each iteration of designs, I consulted with other designers, front-end developers, users, and the CEO to get their perspectives on the usability, aesthetics, and implementation of the designs."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "<strong>Content:</strong> Dedicating a section to important company values"
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "ul",
+             "items": [
+              "<strong>Iterative Feedback:</strong> Utilizing descriptive images descriptive images to represent each learning method was more intuitive than using illustrations, despite their aesthetic appeal."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "src": "/work/echokids/teachingmethodsiteration2.png",
+           "w": 2500,
+           "h": 1204,
+           "t": "image",
+           "alt": "EchoKids Redesign: Content: Dedicating a section to important company values"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Structure: </strong>Adding rich media &amp; informative titles"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 6,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "ul",
+                 "items": [
+                  "Iterative Feedback: Integrating rich and interactive media content boosts user engagement and facilitates a deeper understanding of the information presented on the site."
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 4,
+             "kids": []
+            }
+           ]
+          },
+          {
+           "src": "/work/echokids/aboutcontentiteration.png",
+           "w": 2500,
+           "h": 1313,
+           "t": "image",
+           "alt": "EchoKids Redesign: Structure: Adding rich media & informative titles"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Navigation &amp; Landing Page: </strong>Changing buttons"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 6,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "ul",
+                 "items": [
+                  "Iterative Feedback: Users need to easily be able to find the “Free Trial” option and information about the company upon entering the site. “Login” and “Sign Up” options were also unclear."
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 4,
+             "kids": []
+            }
+           ]
+          },
+          {
+           "src": "/work/echokids/homenaviteration.png",
+           "w": 2500,
+           "h": 1313,
+           "t": "image",
+           "alt": "EchoKids Redesign: Navigation & Landing Page: Changing buttons"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Visual Consistency:</strong> Editing the homepage"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 6,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "ul",
+                 "items": [
+                  "Iterative Feedback: Adhering to a pattern of alternating colors for each section makes the beginning of a new section more clear. Maintaining consistency in the selection of button types enhanced the overall cohesion of the site."
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 4,
+             "kids": []
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "src": "/work/echokids/homecontiteration.png",
+       "w": 2500,
+       "h": 1547,
+       "t": "image",
+       "alt": "EchoKids Redesign: Visual Consistency: Editing the homepage"
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Click <a href=\"https://www.figma.com/proto/ylXvIlkXTWamXNQYUcDMv4/EchoKids-Final-Prototype?mode=design&node-id=1-319&page-id=0%3A1&scaling=scale-down&show-proto-sidebar=1&starting-point-node-id=1%3A319&t=VkJ2D8lFxBafEude-1&type=design&viewport=424%2C566%2C0.03\" target=\"_blank\" rel=\"noreferrer\"><strong>here</strong></a> to see full prototype"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Design: Mobile"
+        },
+        {
+         "t": "h1",
+         "html": "Upon new changes to the “About Us” page, the mobile version was in need of an update"
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 3,
+         "kids": [
+          {
+           "src": "/work/echokids/original-mobile.gif",
+           "w": 413,
+           "h": 826,
+           "t": "image",
+           "alt": "EchoKids Redesign: Upon new changes to the “About Us” page, the mobile version was in need of an update"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 2,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 3,
+             "kids": [
+              {
+               "src": "/work/echokids/revised-mobile.gif",
+               "w": 413,
+               "h": 826,
+               "t": "image",
+               "alt": "EchoKids Redesign: Upon new changes to the “About Us” page, the mobile version was in need of an update"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 1,
+             "kids": []
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "<strong>Updated Mobile</strong>"
+        }
+       ]
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "<strong>Original Mobile</strong>"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Reflection"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h1",
+             "html": "<strong>What I Learned</strong>"
+            },
+            {
+             "t": "ol",
+             "items": [
+              "<strong>Designing with constraints</strong>",
+              "Ideas sometimes don’t go as planned due to development constraints so it is important to keep those constraints in mind when designing!",
+              "<strong>Designing within a design system</strong>",
+              "Staying on brand while redesigning a website is important. I strayed too far from the brand in some of my iterations without realizing, but was able to adhere to EchoKids’ personal style in the end.",
+              "<strong>Constructive feedback from other designers</strong>",
+              "It can be easy to have tunnel vision when designing so it is important to receive feedback from other designers and experts in addition to users."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

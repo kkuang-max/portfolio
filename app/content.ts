@@ -18,6 +18,10 @@ export type Project = {
   summary: string;
   /** Role and context, e.g. "UX Research & Design · ITD Design Challenge". */
   meta: string;
+  /** Category line shown on work cards, as on the original site. */
+  category: string;
+  slug: string;
+  /** Internal case study page. */
   href: string;
   image: string;
 };
@@ -30,7 +34,7 @@ export const site = {
   email: "katherinekuang8@gmail.com",
   linkedin: "https://www.linkedin.com/in/katherine-kuang",
   resumePdf: "/KatherineKuang_resume.pdf",
-  photo: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/9de57da0-13c1-4e38-83f6-e93c1a0f8546/20230416_140057_A7BE56.JPEG?format=1000w",
+  photo: "/katherine.jpg",
 };
 
 export const projects: Project[] = [
@@ -43,8 +47,10 @@ export const projects: Project[] = [
     meta: "UX Research & Design · ITD Design Challenge",
     summary:
       "Implementing a kiosk-based feedback system for dining halls to increase feedback submissions and resolution efficiency.",
-    href: "https://www.katherinekuang.com/dish",
-    image: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/647ea5b6-f4c2-44b9-8f47-04b7929db075/Kiosk+mockup3.png?format=1000w",
+    slug: "dish",
+    href: "/work/dish",
+    category: "Kiosk | UX Research & Design | ITD Design Challenge",
+    image: "/covers/dish.png",
   },
   {
     num: "02",
@@ -55,8 +61,10 @@ export const projects: Project[] = [
     meta: "UX Design & Front-End Development · Internship",
     summary:
       "Enhancing visibility and access to products/services on GM’s internal finance community website, driving user engagement.",
-    href: "https://www.katherinekuang.com/general-motors-internship",
-    image: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/0bed2384-4272-4bc9-b989-b0d1a4eab887/coverrrr.png?format=1000w",
+    slug: "gm-digital-marketplace",
+    href: "/work/gm-digital-marketplace",
+    category: "Website | UX Design & Front-End Development | Internship",
+    image: "/covers/gm.png",
   },
   {
     num: "03",
@@ -67,8 +75,10 @@ export const projects: Project[] = [
     meta: "UX Research, UX/UI Design, App Development · ITD Capstone Project",
     summary:
       "Providing travelers with clear, concise, and practical insights to navigate unwritten rules for trips abroad.",
-    href: "https://www.katherinekuang.com/local-lens",
-    image: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/d0170ca4-a36a-4bbf-853f-9d3c52c13f6f/BigPic2.png?format=1000w",
+    slug: "local-lens",
+    href: "/work/local-lens",
+    category: "Mobile App | UX Research, UX/UI Design, App Development | ITD Capstone Project",
+    image: "/covers/local-lens.png",
   },
   {
     num: "04",
@@ -79,8 +89,10 @@ export const projects: Project[] = [
     meta: "UX/UI Design · Internship",
     summary:
       "Redesigning the EchoKids mobile and desktop website to improve the user journey from business discovery to purchasing a membership.",
-    href: "https://www.katherinekuang.com/echokids-inc",
-    image: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/967e5969-d1dc-46a6-aed9-d594bbde8a07/cover3.png?format=1000w",
+    slug: "echokids",
+    href: "/work/echokids",
+    category: "Mobile & Desktop Website | UX/UI Design | Internship",
+    image: "/covers/echokids.png",
   },
 ];
 
@@ -110,15 +122,15 @@ export const playground = {
   intro: "Other creative projects I’ve worked on 😊",
   // Hotlinked from the current site; alt text is based on the original file names.
   items: [
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740719075023-XT3TJH1X12XU72L7FT3K/gif.gif", alt: "Animated piece", width: 426, height: 240 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740719723122-K6JUBBAFVQJXCT3PJOEV/Lifeline+Prototype+2+Day.png?format=1500w", alt: "Lifeline prototype, day", width: 2100, height: 1500 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740719717153-OLRPMREQBDE3J2MYOZO0/Lifeline+Prototype+Night.png?format=1500w", alt: "Lifeline prototype, night", width: 2100, height: 1500 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740719826519-8X9UOKS32UP3S74017VC/postcarddark.jpg?format=1500w", alt: "Postcard", width: 2700, height: 1800 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740719831138-4QGOQXBDE7IQ013I6N7V/finalpainting.jpg?format=1500w", alt: "Painting", width: 7200, height: 5400 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740760961313-UKTX3H8RB7IQOFUXG4LV/tileillustrator%2B-%2BCopy.jpg?format=1500w", alt: "Tile illustration", width: 3757, height: 2500 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740720033498-3E8ZVHQB45FY51BJY5ZE/DEST3568+-+Copy.jpg?format=1500w", alt: "Creative project", width: 5103, height: 3364 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740720717054-GTUFYXZQNPX42D1VU51Z/still%2Blife%2B-%2BCopy.jpg?format=1500w", alt: "Still life", width: 2500, height: 1666 },
-    { src: "https://images.squarespace-cdn.com/content/v1/6463d7e6cd09c91a8698b92c/1740761015811-N3MAMSA4IC4TSGEX90L8/space+station2+-+Copy.jpg?format=1500w", alt: "Space station", width: 5100, height: 3300 },
+    { src: "/playground/gif.gif", alt: "Animated piece", width: 426, height: 240 },
+    { src: "/playground/lifeline-prototype-2-day.png", alt: "Lifeline prototype, day", width: 2100, height: 1500 },
+    { src: "/playground/lifeline-prototype-night.png", alt: "Lifeline prototype, night", width: 2100, height: 1500 },
+    { src: "/playground/postcarddark.jpg", alt: "Postcard", width: 2700, height: 1800 },
+    { src: "/playground/finalpainting.jpg", alt: "Painting", width: 7200, height: 5400 },
+    { src: "/playground/tileillustrator-copy.jpg", alt: "Tile illustration", width: 3757, height: 2500 },
+    { src: "/playground/dest3568-copy.jpg", alt: "Creative project", width: 5103, height: 3364 },
+    { src: "/playground/still-life-copy.jpg", alt: "Still life", width: 2500, height: 1666 },
+    { src: "/playground/space-station2-copy.jpg", alt: "Space station", width: 5100, height: 3300 },
   ],
 };
 

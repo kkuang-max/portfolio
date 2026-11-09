@@ -1,0 +1,1301 @@
+{
+ "hero": {
+  "src": "/work/gm-digital-marketplace/cover.png",
+  "w": 2500,
+  "h": 817,
+  "t": "image",
+  "alt": "General Motors Digital Marketplace cover"
+ },
+ "blocks": [
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 5,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 4,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Team"
+            },
+            {
+             "t": "p",
+             "html": "<strong>Katherine Kuang (Designer)<em>, </em></strong>Brynn Arego (Manager), Meg Keys (Content Strategist)"
+            },
+            {
+             "t": "h3",
+             "html": "Time"
+            },
+            {
+             "t": "p",
+             "html": "3 months"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 7,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 6,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "My Contributions"
+            },
+            {
+             "t": "p",
+             "html": "Stakeholder Interviews, Wireframing, Prototyping, Front-End Integration (HTML, CSS, JavaScript)"
+            },
+            {
+             "t": "h3",
+             "html": "Tools"
+            },
+            {
+             "t": "p",
+             "html": "Figma, Visual Studio Code"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Context"
+            },
+            {
+             "t": "p",
+             "html": "I spent my summer 2024 interning at General Motors (GM) on the Global Business Solutions (GBS) - UX Design team, which supports the GM finance department with internal UX Design projects. During my time at GM, I was tasked to integrate a new product into their Digital Marketplace. The Digital Marketplace is a hub that GBS created for the finance community at GM to submit ideas for projects, chat with other finance professionals, and expand their knowledge on different finance topics. Deliverables included meeting with stakeholders (business owners) throughout the process, designing mockups based on requirements, and integrating the design into the actual site."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Problem"
+            },
+            {
+             "t": "h1",
+             "html": "How might we integrate a new product into an existing site?"
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 2,
+             "kids": [
+              {
+               "src": "/work/gm-digital-marketplace/business-person.png",
+               "w": 512,
+               "h": 512,
+               "t": "image",
+               "alt": "General Motors Digital Marketplace: How might we integrate a new product into an existing site?"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 8,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "p",
+                 "html": "I met with <strong>2 business stakeholders</strong> to gather insight on the task and requirements for the project."
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "<strong>Primary Task</strong>"
+            },
+            {
+             "t": "p",
+             "html": "Integrate Tech Bytes (short burst videos on GM-specific innovation topics) into the Digital Market place to drive users to discover and use the new product."
+            },
+            {
+             "t": "p",
+             "html": "<strong>Task Requirements</strong>"
+            },
+            {
+             "t": "ol",
+             "items": [
+              "Add a Tech Bytes banner to the Grow Page located in the Digital Marketplace website",
+              "Add a Tech Bytes section and links to videos in the Resource Catalog dropdown located on the Grow Page",
+              "Tie resource brands only to their own courses in the dropdown",
+              "Add an Artificial Intelligence topic to the dropdown with its applicable courses"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Solution"
+            },
+            {
+             "t": "h1",
+             "html": "Developing &amp; integrating an <strong>intuitive design</strong> to the <strong>entire page</strong> will drive users to insightful educational videos"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Rather than just adding a banner promoting Tech Bytes and adding a Tech Bytes section to the Resource Catalog, it was important to make sure the flow of the entire page could drive users to use Tech Bytes. This project became an opportunity to update the design of the page overall to feel more cohesive with the rest of the Digital Marketplace site."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Easy Access and Knowledge About </strong><strong>Grow Page</strong><strong> Offerings</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Program Offerings and Resource Catalog Offerings are both easily found at the top of the page",
+              "Easily switch between content of two tabs within the same page"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "src": "/work/gm-digital-marketplace/tabs-unclicked.png",
+       "w": 1380,
+       "h": 833,
+       "t": "image",
+       "alt": "General Motors Digital Marketplace: Easy Access and Knowledge About Grow Page Offerings"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "src": "/work/gm-digital-marketplace/banner.gif",
+       "w": 1370,
+       "h": 832,
+       "t": "image",
+       "alt": "General Motors Digital Marketplace: Easy Access and Knowledge About Grow Page Offerings"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Intuitive Integration of Tech Bytes Banner</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Obvious Tech Bytes call out to introduce users to new product",
+              "Easy access to Tech Bytes’ landing page and intuitive understanding of where specific Tech Bytes can be found",
+              "Use of existing design elements within site to create a cohesive design"
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Clear Division Between 3 Resource Brands</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "Intuitively separating resource brands with separate cards",
+              "Variations of card layouts dependent on available resources"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "src": "/work/gm-digital-marketplace/dropdown.gif",
+       "w": 1370,
+       "h": 832,
+       "t": "image",
+       "alt": "General Motors Digital Marketplace: Clear Division Between 3 Resource Brands"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Initial Design Brainstorm"
+            },
+            {
+             "t": "h1",
+             "html": "<strong>10 iterations</strong> of dropdown layouts, <strong>6 iterations</strong> of banners"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "src": "/work/gm-digital-marketplace/dropdown-layouts-all.png",
+       "w": 1272,
+       "h": 585,
+       "t": "image",
+       "alt": "General Motors Digital Marketplace: 10 iterations of dropdown layouts, 6 iterations of banners"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": [
+      {
+       "src": "/work/gm-digital-marketplace/banners-layout-all.png",
+       "w": 2500,
+       "h": 897,
+       "t": "image",
+       "alt": "General Motors Digital Marketplace: 10 iterations of dropdown layouts, 6 iterations of banners"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "Initially, I jumped to designing rough layouts of the dropdowns and banners based on the given the original task requirements and more specific requirements for each component of the site:"
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Dropdowns</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "The dropdown lists out different topics that the Digital Marketplace offered courses on along with the courses themselves. It is required for the dropdown to have its <strong>three resource brand categories</strong>: Analytics Everywhere, Tech Bytes, and Additional Resources (third-party brands). These resource brands needed to be laid out to clearly indicate clear separation between the brands."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>Banners</strong>"
+            },
+            {
+             "t": "ul",
+             "items": [
+              "The banner calls out the new product/service. It should include a description about what Tech Bytes are because they are a new addition and still unknown by users, a logo to represent Tech Bytes, and a button leading to the Tech Bytes landing page."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "After reviewing designs, the team felt this was a great opportunity to update the design of the entire page to build <strong>cohesiveness</strong> with the rest of the site."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Understanding the Existing Site"
+            },
+            {
+             "t": "h1",
+             "html": "Taking a step back and looking at the site design as a whole"
+            }
+           ]
+          },
+          {
+           "src": "/work/gm-digital-marketplace/page-analysis-2.png",
+           "w": 2500,
+           "h": 1923,
+           "t": "image",
+           "alt": "General Motors Digital Marketplace: Taking a step back and looking at the site design as a whole"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 6,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 6,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "It was clear that there needed to be more clarification about what the Digital Marketplace offered within the Grow Page, more intuitive separation between resource brands in the dropdown, and more cohesiveness with the rest of the website (shown later on)."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Design Iteration 1"
+        },
+        {
+         "t": "h1",
+         "html": "Strategic Placement of Content"
+        },
+        {
+         "t": "p",
+         "html": "I worked with our team’s Content Strategist to come up with a new way to order content effectively throughout the page. She developed a content blueprint in which I translated into the first iteration of the new Grow Page design."
+        }
+       ]
+      },
+      {
+       "src": "/work/gm-digital-marketplace/iteration-1-ppt.png",
+       "w": 1800,
+       "h": 830,
+       "t": "image",
+       "alt": "General Motors Digital Marketplace: Strategic Placement of Content"
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "p",
+         "html": "The main goal of this design was to create easy access to and knowledge of the two offerings located on this page (Programs and Resource Catalog), while adding in a Tech Bytes call out to introduce the new product to the users. The two cards would open up to their individual content on separate pages."
+        },
+        {
+         "t": "h2",
+         "html": "After reviewing the design with the team, I decided to work on cohesiveness for the next designs. The feedback I received included:"
+        },
+        {
+         "t": "ul",
+         "items": [
+          "“The design still feels disjointed on the page”",
+          "“Current placement of the banner was falling flat”",
+          "“It still doesn’t feel well integrated with the rest of the site”"
+         ]
+        },
+        {
+         "t": "h2",
+         "html": "Within this same iteration… <strong>2 approaches</strong> to the dropdown designs were applied"
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>1. </strong><strong>Now</strong><strong> Approach</strong>"
+            }
+           ]
+          },
+          {
+           "src": "/work/gm-digital-marketplace/iteration-1-part-2.2.png",
+           "w": 1280,
+           "h": 965,
+           "t": "image",
+           "alt": "General Motors Digital Marketplace: 1. Now Approach"
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "This approach focused on how the dropdown would look if it were to launch at that moment - separate cards for separate resource brands."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 5,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h2",
+             "html": "<strong>2. </strong><strong>Scaling</strong><strong> Approach</strong>"
+            }
+           ]
+          },
+          {
+           "src": "/work/gm-digital-marketplace/iteration-1-part-2.1.jpg",
+           "w": 1280,
+           "h": 970,
+           "t": "image",
+           "alt": "General Motors Digital Marketplace: 2. Scaling Approach"
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "This approach focused on the future if there were more videos/courses added to Tech Bytes. Resource brands could be separated with a second drop down to avoid an overwhelming amount of content."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h2",
+         "html": "I decided to focus only on the “Now” Approach after reviewing the design with the team and receiving feedback that included:"
+        },
+        {
+         "t": "ul",
+         "items": [
+          "“The additional drop down draws attention to segmentations that the general public doesn’t care about”",
+          "“The triangle next to Tech Bytes on Flow 2 feels like a button. Can the full Tech Bytes logo be used instead?”"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Design Iteration 2"
+            },
+            {
+             "t": "h1",
+             "html": "Creating a <strong>cohesive </strong>design"
+            },
+            {
+             "t": "p",
+             "html": "To create a more cohesive design for the page, I explored the other tabs within the site and used existing design elements within the site."
+            }
+           ]
+          },
+          {
+           "src": "/work/gm-digital-marketplace/iteration-2-all.png",
+           "w": 2500,
+           "h": 1540,
+           "t": "image",
+           "alt": "General Motors Digital Marketplace: Creating a cohesive design"
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "In addition to incorporating the existing design elements, interactive components and graphics were updated to be more user friendly and intuitive."
+            }
+           ]
+          },
+          {
+           "t": "row",
+           "cols": [
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "src": "/work/gm-digital-marketplace/updated-resource-catalog.png",
+               "w": 912,
+               "h": 868,
+               "t": "image",
+               "alt": "General Motors Digital Marketplace: Creating a cohesive design"
+              },
+              {
+               "src": "/work/gm-digital-marketplace/switchingtabs.gif",
+               "w": 1266,
+               "h": 821,
+               "t": "image",
+               "alt": "General Motors Digital Marketplace: Creating a cohesive design"
+              }
+             ]
+            },
+            {
+             "t": "col",
+             "span": 5,
+             "kids": [
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "ul",
+                 "items": [
+                  "The Resource Catalog dropdown design was updated with a new picture representing the Tech Byte’s section with separation between the resource brands with separate blue cards."
+                 ]
+                }
+               ]
+              },
+              {
+               "t": "html",
+               "items": [
+                {
+                 "t": "ul",
+                 "items": [
+                  "Tabs were used instead of cards for users to easily switch between the different Grow Page offerings on the same page rather than opening up a whole other page."
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "After the changes, I received feedback that the placement of the banner still felt awkward and there could be a better placement where it’d still be easily found but also feel better integrated into the page."
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h3",
+             "html": "Final Design Iteration"
+            },
+            {
+             "t": "h1",
+             "html": "<strong>Transformation</strong> of the Grow Page"
+            }
+           ]
+          },
+          {
+           "src": "/work/gm-digital-marketplace/transformation.png",
+           "w": 2500,
+           "h": 2247,
+           "t": "image",
+           "alt": "General Motors Digital Marketplace: Transformation of the Grow Page",
+           "dark": true
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Integration"
+        },
+        {
+         "t": "h1",
+         "html": "Coding the front-end of the design using HTML, CSS, &amp; JavaScript"
+        }
+       ]
+      },
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 2,
+         "kids": [
+          {
+           "src": "/work/gm-digital-marketplace/images.jpg",
+           "w": 225,
+           "h": 225,
+           "t": "image",
+           "alt": "General Motors Digital Marketplace: Coding the front-end of the design using HTML, CSS, & JavaScript"
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 8,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "p",
+             "html": "After completing my design and getting approval from the business owners, I worked on integrating the design into the actual site. I typed my code into Visual Studio Code and dropped it into Bright Idea (where the site is built)."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 10,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Try out the Prototype"
+        }
+       ]
+      },
+      {
+       "t": "embed",
+       "src": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FjMhYnGzhROkmfsLBN7JOCF%2FTech-Bytes-Draft%3Fnode-id%3D473-2271%26t%3DIO4qDsy0UEYdyAz6-1"
+      }
+     ]
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    }
+   ]
+  },
+  {
+   "t": "hr"
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "html",
+       "items": [
+        {
+         "t": "h3",
+         "html": "Reflection"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "row",
+   "cols": [
+    {
+     "t": "col",
+     "span": 1,
+     "kids": []
+    },
+    {
+     "t": "col",
+     "span": 11,
+     "kids": [
+      {
+       "t": "row",
+       "cols": [
+        {
+         "t": "col",
+         "span": 10,
+         "kids": [
+          {
+           "t": "html",
+           "items": [
+            {
+             "t": "h1",
+             "html": "<strong>What I Learned</strong>"
+            },
+            {
+             "t": "ol",
+             "items": [
+              "<strong>Designing within existing guidelines and standards</strong>: I wasn’t designing a new site from scratch, I was integrating something new into an already existing site, meaning I had to keep in mind the existing guidelines of the site I was adding to.",
+              "<strong>Accepting constructive feedback</strong>: Every iteration I did needed feedback from either the design team to take in other creative perspectives or the business stakeholders to ensure I was meeting requirements. I wouldn’t have gotten the end design that I reached without feedback.",
+              "<strong>Following a new/unfamiliar design process</strong>: I am used to doing research (interviews, testing, etc) before starting off the design process. In this project, my focus was more to design first, and test for results after the design was complete. Unfortunately, the length of my internship didn’t allow for me to see the testing part of the process for this project myself.",
+              "<strong>Relearning how to code:</strong> I hadn’t coded in a few years prior to this project and was able to relearn to code while aiming to complete the design and integration with a deadline."
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "col",
+         "span": 1,
+         "kids": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
