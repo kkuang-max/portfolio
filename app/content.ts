@@ -30,7 +30,7 @@ export const site = {
   name: "Katherine Kuang",
   role: "UX designer",
   intro:
-    "I’m a UX designer who bridges physical and digital interaction — from kiosks you walk up to, to the apps you carry — and I stay with a problem until the solution feels effortless.",
+    "I’m a product and UX designer who enjoys untangling complex problems and turning research into thoughtful, functional experiences. From understanding user needs to designing and building solutions, I work across the design process with a particular interest in experiences that connect the physical and digital worlds.",
   email: "katherinekuang8@gmail.com",
   linkedin: "https://www.linkedin.com/in/katherine-kuang",
   resumePdf: "/KatherineKuang_resume.pdf",
